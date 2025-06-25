@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useSession, signOut } from 'next-auth/react'
 import { useRouter, usePathname } from 'next/navigation'
+import supabase from '@/lib/supabaseClient';
 import {
   Menu, X, ChevronLeft, ChevronRight, Home, Users, Folder, Calendar, LogOut, ShoppingBag
 } from 'lucide-react'
