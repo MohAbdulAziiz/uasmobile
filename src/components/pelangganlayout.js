@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import supabase from '@/lib/supabaseClient';
 import Link from 'next/link'
 import { useRouter, usePathname } from 'next/navigation'
 import { Menu, X } from 'lucide-react'
